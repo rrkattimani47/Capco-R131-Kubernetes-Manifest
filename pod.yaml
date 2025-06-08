@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod 
+metadata: 
+  name: cart-app-pod
+spec: 
+  containers: 
+    - name: test-container
+      image: docker pull rashmi47/sre-test-image:1.0
+      ports:
+        - containerPort: 3015
