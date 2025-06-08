@@ -6,6 +6,6 @@ metadata:
 spec: 
   containers: 
     - name: test-container
-      image: docker pull rashmi47/sre-test-image:1.0
+      image: rashmi47/sre-test-image:1.0
       ports:
         - containerPort: 3015
